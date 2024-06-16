@@ -284,3 +284,94 @@ section.sobreMim .interface .flex .txtSobreMim .texto{
     box-shadow: 0 0 10px #ffffff66;
     border-radius: 30%;
 }
+.projetos{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff2e;
+}
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-color: #00ffff;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 5s;
+    cursor: pointer;
+    border-radius: 20%;
+    position: relative;
+    display: flex;
+
+}
+.img-port:hover{
+    background-position: 100% 100%
+}
+.projetos .interface .titulo{
+    color: #00ffff;
+    font-size: 38px;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+.projetos .interface .titulo .proj{
+    color: #ffff;
+    font-size: 38px;
+    justify-content: center;
+}
+.projetos .interface .titulo .futuro{
+    color: #ba0505;
+    font-size: 28px;
+}
+.projetos .interface .flex{
+    justify-content: space-between;
+    display: flex;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00ffff37;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffff;
+    opacity: 0;
+    transition: .5s;
+}
+.overlay:hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff29;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffff;
+    opacity: 50%;
+}
+.email {
+    width: 50px;
+    background-color: #00ffff;
+    border-radius: 20%;
+    margin: 0;
+    padding: 5%;
+}
+.contatos {
+    font-size: 50px;
+    color: #00ffff;
+}
+.email:hover{
+    background-color: #63fcfc;
+    transform: scale(1.1);
+    transition: .2s;
+    box-shadow: 0 0 10px #ffffff66;
+    border-radius: 30%;
+}
